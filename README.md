@@ -109,10 +109,10 @@ There are several great guides with a similar goal. Some are limited in scope, w
  
 
 ### Tensorflow
-* This installs v0.8 with GPU support. Instructions below are from [here](https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html)
+* This installs v0.10 with GPU support. Instructions below are from [here](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
 
         sudo apt-get install python-pip python-dev
-        sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
+        sudo pip install --upgrade https://storage.googleapis.com/tensorflow/mac/gpu/tensorflow-0.10.0rc0-py2-none-any.whl
 
 * Run a test to ensure your Tensorflow installation is successful. When you execute the `import` command, there should be no warning/error.
 
